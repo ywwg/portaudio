@@ -178,7 +178,6 @@ var hostApiStrings = [...]string{
 	JACK:            "JACK",
 	WASAPI:          "WASAPI",
 	AudioScienceHPI: "AudioScienceHPI",
-	PulseAudio:      "PulseAudio",
 }
 
 // PortAudio Api types.
@@ -197,7 +196,6 @@ const (
 	JACK            HostApiType = C.paJACK
 	WASAPI          HostApiType = C.paWASAPI
 	AudioScienceHPI HostApiType = C.paAudioScienceHPI
-	PulseAudio      HostApiType = C.paPulseAudio
 )
 
 // HostApiInfo contains information for a HostApi.
